@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341151531CFDF15F007BEE0D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341151521CFDF15E007BEE0D /* FirstViewController.swift */; };
 		346285FA1BB7E4A3008AFD49 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346285F91BB7E4A3008AFD49 /* TopViewController.swift */; };
 		346285FC1BB7ED25008AFD49 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346285FB1BB7ED25008AFD49 /* SearchViewController.swift */; };
 		34BFB7141BAE983B00979CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BFB7131BAE983B00979CD1 /* AppDelegate.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		341151521CFDF15E007BEE0D /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		346285F91BB7E4A3008AFD49 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		346285FB1BB7ED25008AFD49 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		34BFB7101BAE983B00979CD1 /* Secret2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Secret2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +146,7 @@
 				34E84A0B1BBAA9E100028647 /* ResultTableViewCell.swift */,
 				34E3F74E1BBC412400C75B1A /* AdvancedSearchViewController.swift */,
 				34E3F7501BBD25DC00C75B1A /* SearchResultTableViewCell.swift */,
+				341151521CFDF15E007BEE0D /* FirstViewController.swift */,
 			);
 			path = Secret2;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				34E3F7511BBD25DC00C75B1A /* SearchResultTableViewCell.swift in Sources */,
 				34BFB7141BAE983B00979CD1 /* AppDelegate.swift in Sources */,
 				346285FC1BB7ED25008AFD49 /* SearchViewController.swift in Sources */,
+				341151531CFDF15F007BEE0D /* FirstViewController.swift in Sources */,
 				34BFB7481BAEA82100979CD1 /* SentenceViewController.swift in Sources */,
 				34E3F74F1BBC412500C75B1A /* AdvancedSearchViewController.swift in Sources */,
 				346285FA1BB7E4A3008AFD49 /* TopViewController.swift in Sources */,
@@ -511,7 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Secret2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mir12.secret2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -526,7 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Secret2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mir12.secret2;
 				PRODUCT_NAME = "$(TARGET_NAME)";

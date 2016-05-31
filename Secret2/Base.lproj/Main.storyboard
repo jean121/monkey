@@ -46,24 +46,87 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="6Sf-tp-QYK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9Z-iN-l2T">
-                                <rect key="frame" x="222" y="408" width="157" height="48"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2bg-Rt-Vsk">
+                                <rect key="frame" x="25" y="88" width="46" height="21"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0NF-Be-C6e">
+                                        <rect key="frame" x="0.0" y="0.0" width="46" height="21"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6CX-5i-m1f">
+                                                <rect key="frame" x="0.0" y="0.0" width="46" height="21"/>
+                                                <color key="backgroundColor" red="0.90980398650000005" green="0.91372555489999996" blue="0.5411764979" alpha="1" colorSpace="deviceRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="6CX-5i-m1f" firstAttribute="centerX" secondItem="0NF-Be-C6e" secondAttribute="centerX" id="nWs-Tq-Cr8"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Cef-E0-XYc">
+                                <rect key="frame" x="111" y="89" width="54" height="21"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zjD-Xl-hNm">
+                                        <rect key="frame" x="0.0" y="0.0" width="54" height="21"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Qyb-ut-Hlb">
+                                                <rect key="frame" x="0.0" y="0.0" width="54" height="21"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4JW-yq-bfU">
+                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="21"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oof-lO-jD6">
+                                                                <rect key="frame" x="0.0" y="0.0" width="54" height="21"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ggb-Km-0dH">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="21"/>
+                                                                        <subviews>
+                                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vb7-o0-rd1">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="54" height="21"/>
+                                                                                <subviews>
+                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Search" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nio-Pc-ybf">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="21"/>
+                                                                                        <color key="backgroundColor" red="0.90980398650000005" green="0.91372555489999996" blue="0.5411764979" alpha="1" colorSpace="deviceRGB"/>
+                                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                        <nil key="highlightedColor"/>
+                                                                                    </label>
+                                                                                </subviews>
+                                                                                <constraints>
+                                                                                    <constraint firstItem="nio-Pc-ybf" firstAttribute="centerX" secondItem="vb7-o0-rd1" secondAttribute="centerX" id="uDp-bD-BXY"/>
+                                                                                </constraints>
+                                                                            </stackView>
+                                                                        </subviews>
+                                                                        <constraints>
+                                                                            <constraint firstItem="vb7-o0-rd1" firstAttribute="centerX" secondItem="ggb-Km-0dH" secondAttribute="centerX" id="Btd-xN-gY7"/>
+                                                                        </constraints>
+                                                                    </stackView>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Log out" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGr-DI-0f0">
+                                <rect key="frame" x="457" y="86" width="58" height="21"/>
                                 <color key="backgroundColor" red="0.90980398650000005" green="0.91372555489999996" blue="0.5411764979" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="Advanced Search">
-                                    <color key="titleColor" red="0.082352943720000002" green="0.180392161" blue="0.37254902719999999" alpha="1" colorSpace="deviceRGB"/>
-                                    <color key="titleShadowColor" red="0.082352943720000002" green="0.180392161" blue="0.37254902719999999" alpha="1" colorSpace="deviceRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="pAa-kd-dUn" kind="show" id="E2a-wZ-Gqp"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.01176470588" green="0.043137254899999998" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.85793596500000002" green="0.87604185729999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="7Gm-hA-sh0" firstAttribute="centerX" secondItem="ZhM-yb-H15" secondAttribute="centerX" id="NXr-rF-wRl"/>
                             <constraint firstItem="yke-Wr-vAh" firstAttribute="centerX" secondItem="ZhM-yb-H15" secondAttribute="centerX" id="Xch-5u-jH2"/>
-                            <constraint firstItem="B9Z-iN-l2T" firstAttribute="centerX" secondItem="ZhM-yb-H15" secondAttribute="centerX" id="oZb-Re-ePz"/>
+                            <constraint firstItem="MGr-DI-0f0" firstAttribute="centerX" secondItem="ZhM-yb-H15" secondAttribute="centerX" constant="186" id="ZmX-gd-drO"/>
                             <constraint firstItem="cbE-kz-EFG" firstAttribute="centerX" secondItem="ZhM-yb-H15" secondAttribute="centerX" id="uxf-Xu-qQ4"/>
                         </constraints>
                     </view>
@@ -71,7 +134,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gMk-1y-bTH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="829" y="211"/>
+            <point key="canvasLocation" x="583" y="182"/>
         </scene>
         <!--Advanced Search-->
         <scene sceneID="ukO-pY-7HL">
@@ -310,7 +373,7 @@
                                 <color key="shadowColor" red="0.90980398650000005" green="0.91372555489999996" blue="0.5411764979" alpha="1" colorSpace="deviceRGB"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.01176470588" green="0.043137254899999998" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.85793596500000002" green="0.87604185729999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Xh9-CL-T8W" firstAttribute="centerX" secondItem="HAB-yh-y3T" secondAttribute="centerX" id="Hq3-Rh-Ugi"/>
                             <constraint firstItem="YCK-tp-tkC" firstAttribute="centerX" secondItem="HAB-yh-y3T" secondAttribute="centerX" id="OSM-or-7IU"/>
@@ -415,7 +478,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.01176470588" green="0.043137254899999998" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.85793596500000002" green="0.87604185729999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="190-Yt-Lac" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7oX-px-MsK"/>
                             <constraint firstItem="fQ9-sU-fbz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UXq-ME-wUu"/>
@@ -486,7 +549,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.01176470588" green="0.043137254899999998" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.85793596500000002" green="0.87604185729999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="84Z-lW-PIb" firstAttribute="centerX" secondItem="oaZ-ro-laO" secondAttribute="centerX" constant="38" id="7Nb-dz-Gwy"/>
@@ -537,7 +600,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dNP-6p-9hM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-292.5" y="222.88732394366195"/>
+            <point key="canvasLocation" x="-490" y="205"/>
         </scene>
         <!--Advanced Search-->
         <scene sceneID="tV4-6k-GTN">
@@ -751,7 +814,7 @@
         <image name="entertainment" width="57" height="57"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BzP-uH-nbQ"/>
+        <segue reference="OEo-1W-yVH"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
